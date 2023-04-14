@@ -14,5 +14,7 @@
 => c. to commit some file or folder :
 	--> 'git add site/index.html' (for specific file or folder)
 	--> 'git add .' (for commit all files and folder)
-=> d. To push to github :
+=> d. to add commit :
+	--> git commit -m "this is first"
+=> e. To push to github :
 	--> 'git push'
