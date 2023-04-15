@@ -11,3 +11,4 @@ From ES5(EcmaScript version 5 / ES2016) it is called mordern Javascript.
 //3. comments lines
 //4. variable (let, var, const) and strict mode.
 //5. Data types and 'typeof' operator.
+
