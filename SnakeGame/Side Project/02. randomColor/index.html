@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change color</title>
+
+    <style>
+
+        #btn {
+            padding: 20px 15px;
+            border-radius: 20px;
+            background-color: tomato;
+            font-size: 22px;
+            font-family: sans-serif;
+            color: white;
+            
+            cursor: pointer;
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            text-align: center;
+        }
+
+        .color--info {
+            font-size: 22px;
+            font-family: sans-serif;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 20px;
+            color: white;
+            
+            background-color: rgb(246, 118, 67);
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="color--info">hsl(0, 100%, 100%)</div>
+        <button id="btn">Click Me to change the color of body</button>
+    </div>
+
+
+    <!-- <select name="" id="op">
+        <option value="one">one</option>
+        <option value="two">two</option>
+        <option value="three">three</option>
+    </select>
+    <button id="btn2">Apply</button> -->
+
+
+    <script src="./main.js"></script>
+</body>
+</html>

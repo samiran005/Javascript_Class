@@ -1,0 +1,20 @@
+***** Git and Github *****
+1. What is Github ?
+=> GitHub is a web-based platform that allows developers to host and share their software projects with other developers and collaborators.
+	Repositories: you can think of it as a folder that hold all file or folder of your project. it has it's own link by using that anyone can copy and modify the code.
+
+2. Into to Git : Git is a way to connect your pc with Github. And Git allows developers to keep track of changes to their code over time, collaborate with others on a codebase, and easily revert to previous versions if necessary.
+
+
+3. Basic Commend of git that you need to need know for start your jorney to Github.
+=> a. check git is intall or not :
+	--> 'git --version'
+=> b. To clone Repositories from github :
+	--> first copy the 'link' from github. then 'git clone https://link'.
+=> c. to commit some file or folder :
+	--> 'git add site/index.html' (for specific file or folder)
+	--> 'git add .' (for commit all files and folder)
+=> d. to add commit :
+	--> git commit -m "this is first"
+=> e. To push to github :
+	--> 'git push'
