@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .container {
+            width: 500px;
+            height: 100vh;
+            background-color: tomato;
+            text-align: center;
+
+            position: relative;
+        }
+
+        h2 {
+            padding: 0;
+            margin: 0;
+            font-size: 25px;
+            font-family: sans-serif;
+            padding-top: 30px;
+        }
+
+        .box,.ractagle {
+            width: 100px;
+            height: 100px;
+            background-color: seagreen;
+            position: absolute;
+            border: 2px solid black;
+        }
+
+        .one {
+            top: 35%;
+            left: 3%;
+        }
+        .eyeLeft{
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            bottom: 35%;
+            right: 35%;
+            background-color: black;
+        }
+
+        .eyeRight{
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            bottom: 35%;
+            right: 35%;
+            background-color: black;
+        }
+
+        .two {
+            top: 35%;
+            right: 3%;
+        }
+
+        .ractagle {
+            width: 200px;
+            height: 60px;
+            top: 75%;
+            left: 30%;
+            position: relative;
+
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .teeth {
+            width: 25px;
+            height: 100%;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Samiran Maity</h2>
+        <div class="box one">
+            <div class="eyeLeft"></div>
+        </div>
+        <div class="box two">
+            <div class="eyeRight"></div>
+        </div>
+        <div class="ractagle">
+            <div class="teeth"></div>
+            <div class="teeth"></div>
+            <div class="teeth"></div>
+            <div class="teeth"></div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
