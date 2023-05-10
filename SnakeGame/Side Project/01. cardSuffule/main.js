@@ -1,5 +1,26 @@
-// Array
 
+const container = document.querySelector('.container');
+
+const cardData = ['One-1','Two-2','Three-3','Four-4','Five-5','Six-6','Seven-7','Eight-8','Nine-9'];
+
+cardData.forEach((data)=>{
+    container.innerHTML += `<div class='ele'>${data}</div>`;
+})
+
+
+const btn = document.querySelector('.btn');
+
+btn.addEventListener('click', ()=>{
+    cardData.sort(()=> 0.5 - Math.random());
+
+    container.innerHTML = '';
+    cardData.forEach((data)=>{
+        container.innerHTML += `<div class='ele'>${data}</div>`;
+    })
+})
+
+
+// Array
 
 /*
 let arr = ["shani", 12, undefined, null, true, 12n];
@@ -144,11 +165,98 @@ func3();
 
 //******** New Element add **********
 
-const container = document.querySelector('.container');
+// const container = document.querySelector('.container');
 
-//innerHTML
-// container.innerHTML += '<div class="ele">1</div>';
+// //innerHTML
+// // container.innerHTML += '<div class="ele">1</div>';
 
-for(let i = 1; i < 5; i++){
-    container.innerHTML += `<div class="ele">${i}</div>`;
-}
+// for(let i = 1; i < 5; i++){
+//     container.innerHTML += `<div class="ele">${i}</div>`;
+// }
+
+
+/*****************************/
+/*
+//Primitive Type
+let x = 5;
+let y = x;
+
+console.log("Before");
+console.log("x :",x);
+console.log("y :",y);
+
+x = 20;
+
+console.log("After");
+console.log("x :",x);
+console.log("y :",y);
+*/
+
+/*
+//Referance Type
+let arr1 = [1,2,5];
+let arr2 = arr1; //address 
+
+console.log("Before");
+console.log("arr1 :",arr1);
+console.log("arr2 :",arr2);
+
+arr1.push(99);
+
+console.log("After");
+console.log("arr1 :",arr1);
+console.log("arr2 :",arr2);
+*/
+
+
+// function addTwoNumber(a,b){
+//     return a + b;
+// }
+
+// console.log(addTwoNumber(12,63));
+// console.log(addTwoNumber);
+
+// let x = function(a,b){
+//     return a + b;
+// }
+
+
+// // console.log(addTwoNumber2(12,63));
+
+// const arr1 = [1,2,9]
+
+// arr1.forEach((ele, index)=>{
+//     console.log(index + " : " + ele);
+// })
+
+
+// function eventFunc(){
+
+// }
+
+// // window.addEventListener("click",eventFunc)
+
+// let age = 12;
+// let variable = `my age is ${age}`;
+
+// console.log(variable);
+
+
+// let a = 500;
+// let count = 0;
+
+// while(a){
+//     a = Math.floor(a / 10);
+//     count++;
+// }
+
+// console.log(count);
+
+// window.addEventListener('keydown',(e)=>{
+//     switch(e.key){
+//         case 'w':
+//             console.log("Hi there this is me!!!")
+//             break;
+//     }
+// })
+
